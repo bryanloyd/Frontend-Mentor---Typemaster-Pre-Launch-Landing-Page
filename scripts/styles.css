@@ -1,0 +1,22 @@
+:root {
+  --color-orange: #f16718;
+  --color-peach: #ff9b62;
+  --color-dk-blue: #162542;
+  --color-lt-blue: #7b8bad;
+  --color-gray: #e8eff2;
+  --color-white: #ffffff;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+}
