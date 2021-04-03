@@ -19,4 +19,7 @@ html {
 
 body {
   font-family: "Barlow", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
 }
