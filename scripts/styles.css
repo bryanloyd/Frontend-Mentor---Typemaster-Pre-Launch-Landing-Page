@@ -19,7 +19,77 @@ html {
 
 body {
   font-family: "Barlow", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 375px;
+}
+
+h1 {
+  color: var(--color-dk-blue);
+  font-size: 4.8rem;
+  line-height: 1;
+  font-weight: 900;
+}
+
+p {
+  color: var(--color-lt-blue);
+  font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.5;
+}
+
+.container {
+  width: 375px;
+  padding: 25px;
+}
+
+.header,
+.release {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-left {
+  flex: 50 1 auto;
+}
+
+.header-right {
+  flex: 1 1 auto;
+}
+
+.button2 {
+  border: 0;
+  background-color: var(--color-gray);
+  color: var(--color-dk-blue);
+  border-radius: 10px;
+  padding: 12px;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.release-left {
+  flex: 2 1 auto;
+}
+
+.release-right {
+  flex: 1 1 auto;
+}
+
+.button1 {
+  border: 0;
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  border-radius: 10px;
+  padding: 12px;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
